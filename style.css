@@ -15,3 +15,27 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+/* Header stylings */
+
+header{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo {
+  font-family: 'Metal Mania';
+  font-size: 24px;
+  color: gainsboro;
+}
+
+header .links {
+  color: ghostwhite;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 5px;
+}
