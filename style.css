@@ -90,3 +90,22 @@ header ul {
   width: 230px;
   height: 230px;
 }
+
+/* Quote container stylings */
+
+.quote {
+  background-color: floralwhite;
+  padding: 93px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote-text {
+  font-size: 93px;
+  font-weight: 100;
+  font-style: italic;
+  padding: 0px;
+  margin: 0px;
+  justify-self: left;
+}
