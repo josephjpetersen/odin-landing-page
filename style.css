@@ -1,19 +1,25 @@
-/* Import various Roboto weights/styles */
+/* Import various Roboto Mono and Metal Mania weights/styles */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-/* Import Metal Mania font for header */
-
-@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 /* General stylings */
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  height: 25%;
+  width: 25%;
 }
 
 /* Header stylings */
@@ -22,6 +28,8 @@ header{
   background-color: black;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0px 13px;
 }
 
 header .logo {
@@ -37,5 +45,21 @@ header .links {
 header ul {
   list-style-type: none;
   display: flex;
-  gap: 5px;
+  gap: 13px;
+}
+
+/* Intro container stylings */
+
+.intro {
+  background-color: floralwhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 230px;
+  padding: 13px;
+}
+
+.intro img {
+  height: 33%;
+  width: 33%;
 }
