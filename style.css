@@ -57,6 +57,16 @@ header ul {
   max-width: 400px;
 }
 
+.intro button {
+  background-color: dimgrey;
+  color: whitesmoke;
+  box-shadow: black;
+  height: 33px;
+  width: 93px;
+  border-radius: 23px;
+  flex: none;
+}
+
 .intro img {
   height: auto;
   width: 450px;
@@ -129,7 +139,7 @@ header ul {
   max-width: 666px;
   border-radius: 13px;
   gap: 156px;
-  padding: 13px;
+  padding: 13px 93px 13px 25px;
 }
 
 .sign-up-text {
@@ -138,8 +148,15 @@ header ul {
 }
 
 .sign-up-box button {
+  background-color: dimgrey;
+  color: whitesmoke;
+  box-shadow: black;
   justify-self: right;
   align-self: center;
+  height: 33px;
+  width: 93px;
+  border-radius: 23px;
+  flex: none;
 }
 
 /* Footer stylings */
