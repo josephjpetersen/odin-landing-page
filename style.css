@@ -109,3 +109,43 @@ header ul {
   margin: 0px;
   justify-self: left;
 }
+
+/* Sign up container stylings */
+
+.sign-up {
+  background-color: black;
+  padding: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-box {
+  background-color: floralwhite;
+  display: flex;
+  max-width: 666px;
+  border-radius: 13px;
+  gap: 156px;
+  padding: 13px;
+}
+
+.sign-up-text {
+  justify-self: left;
+  align-self: center;
+}
+
+.sign-up-box button {
+  justify-self: right;
+  align-self: center;
+}
+
+/* Footer stylings */
+
+footer {
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
